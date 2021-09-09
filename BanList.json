@@ -1,7 +1,13 @@
-print("test")
-local part = Instance.new("Part",workspace)
-part.Color = Color3.new(0,0,0)
-part.Name = "Hoarcekat"
-part.Anchored = true
-part.CastShadow = false
-part.Material = Enum.Material.SmoothPlastic
+local test = {}
+
+function test:Start()
+	print("test")
+	local part = Instance.new("Part",workspace)
+	part.Color = Color3.new(0,0,0)
+	part.Name = "Hoarcekat"
+	part.Anchored = true
+	part.CastShadow = false
+	part.Material = Enum.Material.SmoothPlastic
+end
+
+return test
